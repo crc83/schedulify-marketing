@@ -255,8 +255,7 @@ python3 -m http.server 8000
 ## 📧 Контакти
 
 Для питань щодо сайту:
-- Email: info@schedulify.com
-- GitHub: https://github.com/crc83/schedulify
+- Email: sergiy.beley@gmail.com
 
 ## 📄 Ліцензія
 
