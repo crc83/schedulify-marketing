@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Schedulify - Система планування для терапевтичних клінік. Керуйте розкладами, відстежуйте відсутність терапевтів та координуйте прийоми пацієнтів.">
+    <meta name="keywords" content="планування, розклад, терапія, клініка, терапевт, прийом, система управління">
+    <title>Schedulify - Планування для терапевтичних клінік</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/demo-logo192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="images/demo-logo512.png">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav-brand">
+                <img src="images/demo-logo192.png" alt="Schedulify Logo" class="logo">
+                <span class="brand-name">Schedulify</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#features">Можливості</a></li>
+                <li><a href="#how-it-works">Як працює</a></li>
+                <li><a href="#video">Відео</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle">
+                <span class="material-icons">menu</span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Планування для терапевтичних клінік</h1>
+                <p class="hero-subtitle">Керуйте розкладами терапевтів, відстежуйте відсутність та координуйте прийоми пацієнтів з легкістю</p>
+                <div class="hero-buttons">
+                    <a href="#video" class="btn btn-primary">
+                        <span class="material-icons">play_circle_outline</span>
+                        Дивитись відео
+                    </a>
+                    <a href="#features" class="btn btn-secondary">
+                        <span class="material-icons">info_outline</span>
+                        Дізнатись більше
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/demo-logo512.png" alt="Schedulify App" class="app-preview">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Ключові можливості</h2>
+            <p class="section-subtitle">Все необхідне для ефективного управління розкладом вашої клініки</p>
+
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <span class="material-icons">calendar_month</span>
+                    </div>
+                    <h3 class="feature-title">Управління розкладом</h3>
+                    <p class="feature-description">Переглядайте та керуйте розкладами терапевтів в інтуїтивній сітці. Бачте всіх терапевтів та їхні прийоми одним поглядом.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <span class="material-icons">event_busy</span>
+                    </div>
+                    <h3 class="feature-title">Відстеження відсутності</h3>
+                    <p class="feature-description">Фіксуйте відсутність терапевтів та вихідні дні. Автоматичне виявлення конфліктів у розкладі та історія відсутності.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <span class="material-icons">notifications_active</span>
+                    </div>
+                    <h3 class="feature-title">Push-сповіщення</h3>
+                    <p class="feature-description">Миттєві push-сповіщення про зміни в розкладі. Ніколи не пропускайте важливі оновлення розкладу.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <span class="material-icons">security</span>
+                    </div>
+                    <h3 class="feature-title">Безпека даних</h3>
+                    <p class="feature-description">Безпечна автентифікація через Google Sign-In. Конфіденційність в пріоритеті, без відстеження та передачі даних.</p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <span class="material-icons">phone_iphone</span>
+                    </div>
+                    <h3 class="feature-title">Мобільний додаток</h3>
+                    <p class="feature-description">Доступний на iPhone та iPad. Керуйте розкладом де завгодно з синхронізацією в реальному часі.</p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <span class="material-icons">groups</span>
+                    </div>
+                    <h3 class="feature-title">Командна робота</h3>
+                    <p class="feature-description">Створено для персоналу клініки, адміністраторів та терапевтів, які потребують швидкого доступу до розкладів.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">Як це працює</h2>
+            <p class="section-subtitle">Три простих кроки до ефективного управління розкладом</p>
+
+            <div class="steps">
+                <!-- Step 1 -->
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <span class="material-icons">login</span>
+                        </div>
+                        <h3 class="step-title">Увійдіть в систему</h3>
+                        <p class="step-description">Використовуйте свій Google-акаунт для безпечного входу. Одноразове налаштування, швидкий доступ щоразу.</p>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <span class="material-icons">view_module</span>
+                        </div>
+                        <h3 class="step-title">Переглядайте розклад</h3>
+                        <p class="step-description">Бачте всіх терапевтів, їхні прийоми та доступність у зручній сітці розкладу з кольоровим кодуванням.</p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <span class="material-icons">edit_calendar</span>
+                        </div>
+                        <h3 class="step-title">Керуйте відсутністю</h3>
+                        <p class="step-description">Додавайте відсутність терапевтів, отримуйте сповіщення про зміни та координуйте роботу команди в реальному часі.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video" class="video-section">
+        <div class="container">
+            <h2 class="section-title">Навчальне відео</h2>
+            <p class="section-subtitle">Дізнайтесь, як використовувати Schedulify за 5 хвилин</p>
+
+            <div class="video-container">
+                <!-- Placeholder for YouTube video -->
+                <div class="video-placeholder">
+                    <span class="material-icons video-icon">play_circle_filled</span>
+                    <p class="video-text">Відео буде доступне незабаром</p>
+                    <p class="video-subtext">Тут буде розміщено детальну інструкцію з використання Schedulify</p>
+                </div>
+
+                <!-- Uncomment and replace VIDEO_ID when YouTube video is ready -->
+                <!--
+                <div class="video-wrapper">
+                    <iframe
+                        src="https://www.youtube.com/embed/VIDEO_ID"
+                        title="Як використовувати Schedulify"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                -->
+            </div>
+
+            <!-- Video Topics -->
+            <div class="video-topics">
+                <h3 class="topics-title">У відео ви дізнаєтесь:</h3>
+                <ul class="topics-list">
+                    <li>
+                        <span class="material-icons">check_circle</span>
+                        <span>Як увійти в систему через Google</span>
+                    </li>
+                    <li>
+                        <span class="material-icons">check_circle</span>
+                        <span>Як переглядати розклад терапевтів</span>
+                    </li>
+                    <li>
+                        <span class="material-icons">check_circle</span>
+                        <span>Як додавати та керувати відсутністю</span>
+                    </li>
+                    <li>
+                        <span class="material-icons">check_circle</span>
+                        <span>Як налаштувати сповіщення</span>
+                    </li>
+                    <li>
+                        <span class="material-icons">check_circle</span>
+                        <span>Як використовувати мобільний додаток</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <div class="container">
+            <h2 class="section-title">Чому Schedulify?</h2>
+
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <span class="material-icons">speed</span>
+                    <h3>Швидкість</h3>
+                    <p>Миттєві оновлення в реальному часі для всієї команди</p>
+                </div>
+                <div class="benefit-item">
+                    <span class="material-icons">touch_app</span>
+                    <h3>Простота</h3>
+                    <p>Інтуїтивний інтерфейс, легко навчитись за 5 хвилин</p>
+                </div>
+                <div class="benefit-item">
+                    <span class="material-icons">cloud_done</span>
+                    <h3>Надійність</h3>
+                    <p>Хмарне зберігання з автоматичним резервним копіюванням</p>
+                </div>
+                <div class="benefit-item">
+                    <span class="material-icons">devices</span>
+                    <h3>Доступність</h3>
+                    <p>Працює на всіх пристроях - комп'ютер, планшет, смартфон</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Готові спростити управління розкладом?</h2>
+                <p class="cta-subtitle">Приєднуйтесь до Schedulify та оптимізуйте роботу вашої клініки</p>
+                <a href="#contact" class="btn btn-light">
+                    <span class="material-icons">email</span>
+                    Зв'язатись з нами
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Контакти</h2>
+            <p class="section-subtitle">Є питання? Ми завжди раді допомогти</p>
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="material-icons">email</span>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@schedulify.com">info@schedulify.com</a></p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span class="material-icons">description</span>
+                    <div class="contact-details">
+                        <h3>Політика конфіденційності</h3>
+                        <p><a href="https://crc83.github.io/schedulify-privacy/" target="_blank">Переглянути політику</a></p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span class="material-icons">code</span>
+                    <div class="contact-details">
+                        <h3>GitHub</h3>
+                        <p><a href="https://github.com/crc83/schedulify" target="_blank">Переглянути код</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="images/demo-logo192.png" alt="Schedulify" class="footer-logo">
+                    <p class="footer-tagline">Планування для терапевтичних клінік</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#features">Можливості</a>
+                    <a href="#how-it-works">Як працює</a>
+                    <a href="#video">Відео</a>
+                    <a href="#contact">Контакти</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Schedulify. Всі права захищено.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

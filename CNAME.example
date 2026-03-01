@@ -1,0 +1,15 @@
+# GitHub Pages Custom Domain Configuration
+#
+# To use a custom domain:
+# 1. Rename this file to "CNAME" (without .example)
+# 2. Replace "yourdomain.com" with your actual domain
+# 3. Configure DNS settings at your domain provider:
+#    - Add CNAME record pointing to: yourusername.github.io
+# 4. Commit and push to GitHub
+#
+# Example:
+# schedulify.com
+#
+# More info: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site
+
+yourdomain.com
