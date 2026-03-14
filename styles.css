@@ -169,6 +169,23 @@ ul {
     color: white;
 }
 
+.btn-appstore {
+    background: #000;
+    color: white;
+}
+
+.btn-appstore:hover {
+    background: #333;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.appstore-icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
 .btn-light {
     background: white;
     color: var(--primary-color);
