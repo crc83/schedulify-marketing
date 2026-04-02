@@ -186,6 +186,23 @@ ul {
     flex-shrink: 0;
 }
 
+.btn-playstore {
+    background: #01875f;
+    color: white;
+}
+
+.btn-playstore:hover {
+    background: #016d4d;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.playstore-icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
 .btn-light {
     background: white;
     color: var(--primary-color);
